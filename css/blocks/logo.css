@@ -1,0 +1,40 @@
+.logo {
+    display: inline-block;
+}
+
+.logo__link {
+    display: block;
+    margin: 0;
+    padding: 0;;
+    text-decoration: none;
+}
+
+.logo__title {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    line-height: 1.2em;
+    font-family: 'Gilroy', 'Arial', sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.logo__link[href]:hover .logo__title {
+    color: rgb(70, 70, 70);
+}
+
+.logo__link[href]:active .logo__title {
+    color: rgb(102, 102, 102);
+}
+
+.logo__title_yellow {
+    color: rgb(247, 225, 135);
+}
+
+/*--------------------header------------------------*/
+
+.logo--header {
+    margin-top: -29px;
+    margin-bottom: 3px;
+    margin-left: -3px;
+}

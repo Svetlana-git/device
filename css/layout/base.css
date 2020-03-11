@@ -1,0 +1,128 @@
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../../fonts/gilroyextrabold.woff ') format('woff');
+	font-weight: 700;
+	font-style: normal;	
+	font-display: block; 
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../../fonts/gilroyextrabold.woff2 ') format('woff2');
+	font-weight: 700;
+	font-style: normal;	
+	font-display: block; 
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../../fonts/gilroylight.woff ') format('woff');
+	font-weight: 300;
+	font-style: normal;	
+	font-display: block; 
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../../fonts/gilroylight.woff2 ') format('woff2');
+	font-weight: 300;
+	font-style: normal;	
+	font-display: block; 
+}
+
+.body {
+	font-size: 15px;
+	line-height: 2em;
+	font-family: 'Open Sans', 'Arial', sans-serif;
+	font-weight: 300;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.centring {
+	max-width: 1160px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.btn_yelloyLine {
+	position: relative;
+	min-height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	font-size: 18px;
+    line-height: 1.2em;
+    font-family: 'Gilroy', 'Arial', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn_yelloyLine::after {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 8px;
+	margin-top: -4px;
+	background-color: rgb(240, 197, 46);
+	z-index: -1;
+}
+
+.btn_yelloyLine:hover {
+	background-color: rgb(240, 197, 46);
+}
+
+.btn_yelloyLine:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+/*.headerTopLine__link {
+	display: block;
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 2.4em;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+	color: rgb(0, 0, 0);
+	box-sizing: border-box;
+
+	outline: 1px solid blue;
+}*/
+
+.headerTopLine__link:hover {
+    opacity: 0.6;
+}
+
+.headerTopLine__link:active {
+    opacity: 0.3;
+}
+
+/*.headerTopLine__link::before { 
+    content: '';
+	position: absolute;
+	top: 50%;
+    width: 13px;
+    height: 13px;
+    margin-top: -6px;
+    background-color: rgb(0, 0, 0);
+}*/
+
+.footer__text {
+	font-size: 15px;
+	line-height: 2em;
+	font-family: 'Open Sans', 'Arial', sans-serif;
+	font-weight: 300;
+    color: rgb(255, 255, 255);
+}

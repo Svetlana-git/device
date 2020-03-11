@@ -1,0 +1,29 @@
+.brands {
+    margin-bottom: 30px;
+    outline: 1px solid red;
+}
+
+.brands__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    margin: -20px;
+    padding: 0;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    list-style: none;
+}
+
+.brands__item {
+    width: 260px;
+    height: 170px;
+    margin: 20px;
+
+    outline: 1px solid green;
+}
+
+.brands__link {
+    display: block;
+    height: 100%;
+    font-size: 0;
+}

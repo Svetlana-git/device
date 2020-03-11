@@ -1,0 +1,9 @@
+.phone {
+    outline: 1px solid red;
+    background-color: rgb(70, 70, 70);
+}
+
+.phone__link {
+   
+    text-decoration: none;
+}

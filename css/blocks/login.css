@@ -1,0 +1,27 @@
+.login {
+    
+}
+
+.login__link {
+    display: block;
+    position: relative;
+    max-width: 80px;
+    padding-left: 27px;
+    padding-right: 1px;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+	box-sizing: border-box;
+}
+
+.login__link::before {
+    content: '';
+	position: absolute;
+    top: 27px;
+    left: 1px;
+    width: 13px;
+    height: 13px;
+    margin-top: -6px;
+    background-image: url('../../img/icons/spriteIcons.png');
+    background-position: -500px 0;
+    background-repeat: no-repeat;
+}

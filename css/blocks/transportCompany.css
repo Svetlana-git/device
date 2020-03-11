@@ -1,0 +1,25 @@
+.transportCompany__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.transportCompany__item {
+    position: relative;
+    padding-left: 35px;
+    font-family: 'Gilroy', 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+.transportCompany__item:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    margin-top: -5px;
+    border: 3px solid rgb(0, 0, 0);
+    opacity: 0.3;
+    border-radius: 50%;
+}

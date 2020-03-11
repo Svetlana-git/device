@@ -1,0 +1,116 @@
+.mainNav {
+    margin-bottom: 4px;
+    
+}
+
+.mainNav__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    padding: 0;
+    list-style: none;
+}
+
+.mainNav__item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.mainNav__item--catalog {
+    position: relative;
+    margin-right: 294px;
+}
+
+.mainNav__item--delivery {
+    margin-right: 35px;
+}
+
+.mainNav__item--garranty {
+    margin-right: 105px;
+}
+
+.mainNav__link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.2em;
+    font-family: 'Gilroy', 'Arial', sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 3.3px;
+}
+
+.mainNav__link:hover {
+    opacity: 0.6;
+}
+
+.mainNav__link:active {
+    opacity: 0.3;
+}
+
+.mainNav__link--catalog {
+    position: relative;
+    padding-right: 29px;
+}
+
+.mainNav__link--catalog::after,
+.mainNav__link--catalog::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 16px;
+    height: 2px;
+    margin-top: -2px;
+    background-color: rgba(39, 37, 37, 0.3);
+}
+
+.mainNav__link--catalog::before {
+    transform: rotate(90deg);
+}
+
+.subMenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 25px;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 100%;
+    height: 0; /*!скрыть с помощью clip!*/
+}
+
+.mainNav__item--catalog:hover > .subMenu {
+    position: relative;
+    clip: unset;
+    height: 100%;
+    width: 100%;
+}
+
+.subMenu__row {
+    height: 135px;
+}
+/*-------------------------footer--------------------------------*/
+.mainNav--footer {
+    margin-bottom: 5px;
+}
+
+.mainNav__list--footer {
+    justify-content: center;
+
+    background-color: rgb(70, 70, 70);
+}
+
+.mainNav__item--footer {
+    margin-right: 35px;
+}
+
+.mainNav__link--footer {
+    color: rgb(255, 255, 255);
+}
+

@@ -1,0 +1,9 @@
+.htmlAcademy__link {
+    display: inline-block;
+    width: 27px;
+    height: 34px;
+    text-decoration: none;
+    font-size: 0;
+
+    outline: 1px solid yellow;
+}

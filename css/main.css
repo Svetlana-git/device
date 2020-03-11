@@ -1,0 +1,28 @@
+@import url("layout/normalize.css");
+@import url("layout/base.css");
+
+@import url("blocks/logo.css");
+@import url("blocks/search.css");
+@import url("blocks/userBlock.css");
+@import url("blocks/login.css");
+@import url("blocks/userAccount.css");
+@import url("blocks/logout.css");
+@import url("blocks/compare.css");
+@import url("blocks/cart.css");
+@import url("blocks/mainNav.css");
+@import url("blocks/catalog.css");
+@import url("blocks/slide.css");
+@import url("blocks/slidesContainer.css");
+@import url("blocks/services.css");
+@import url("blocks/brands.css");
+@import url("blocks/aboutUs.css");
+@import url("blocks/transportCompany.css");
+@import url("blocks/contacts.css");
+@import url("blocks/address.css");
+@import url("blocks/socials.css");
+@import url("blocks/phone.css");
+@import url("blocks/htmlAcademy.css");
+
+@import url("layout/info.css");
+@import url("layout/media.css");
+@import url("layout/mainHeader.css");
