@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="wrapper">
-            <div class="centring">
+            <div class="centring centring--header">
                 <div class="mainHeader">
                     <section class="logo logo--header">
                         <a class="logo__link">
@@ -22,7 +22,6 @@
                             <input class="search__field" type="search" placeholder="Поиск по сайту">
                             <input type="submit" class="search__button" value="Найти">
                         </form>
-
                         <section class="userBlock">
                             <div class="login userBlock__item">
                                 <a class="userBlock__link login__link" href="#">Войти</a>
@@ -34,7 +33,6 @@
                                 <a class="userBlock__link logout__link" href="#">Выйти</a>
                             </div>
                         </section>
-
                         <div class="compare">
                             <a class="compare__link" href="#">Сравнить</a>
                         </div>
@@ -43,49 +41,121 @@
                             <a class="cart__link" href="#">Корзина</a>
                         </div>
                     </div>
-                    <nav class="mainNav">
-                        <ul class="mainNav__list">
-                            <li class="mainNav__item mainNav__item--catalog">
-                                <a class="mainNav__link mainNav__link--catalog" href="#">Каталог товаров</a>
-                                <ul class="subMenu">
-                                    <li class="subMenu__row">
-                                        <ul class="catalog__list catalog__list--mainNav">
-                                            <li class="catalog__item catalog__item--mainNav">
-                                                <a class="catalog__link catalog__link--mainNav" href="#">Виртуальная реальность</a>
-                                            </li>
-                                            <li class="catalog__item catalog__item--mainNav">
-                                                <a class="catalog__link catalog__link--mainNav" href="#">Моноподы для селфи</a>
-                                            </li>
-                                            <li class="catalog__item catalog__item--mainNav">
-                                                <a class="catalog__link catalog__link--mainNav" href="#">Экшн-камеры</a>
-                                            </li>
-                                            <li class="catalog__item catalog__item--mainNav">
-                                                <a class="catalog__link catalog__link--mainNav" href="#">Фитнесс-браслеты</a>
-                                            </li>
-                                            <li class="catalog__item catalog__item--mainNav">
-                                                <a class="catalog__link catalog__link--mainNav" href="#">Умные часы</a>
-                                            </li>
-                                            <li class="catalog__item catalog__item--mainNav">
-                                                <a class="catalog__link catalog__link--mainNav" href="#"></a>
-                                            </li>
-                                            <li class="catalog__item catalog__item--mainNav">
-                                                <a class="catalog__link catalog__link--mainNav" href="#">Квадрокоптеры</a>
-                                            </li>
-                                        </ul>                         
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="mainNav__item mainNav__item--delivery">
-                                <a class="mainNav__link" href="#">Доставка</a>
-                            </li>
-                            <li class="mainNav__item mainNav__item--garranty">
-                                <a class="mainNav__link" href="#">Гарантия</a>
-                            </li>
-                            <li class="mainNav__item mainNav__item--contacts">
-                                <a class="mainNav__link" href="#">Контакт</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <div class="mainHeader__row mainHeader__row--bottom">
+                        <nav class="mainNav">
+                            <ul class="mainNav__list">
+                                <li class="mainNav__item mainNav__item--catalog">
+                                    <a class="mainNav__link mainNav__link--catalog" href="#">Каталог товаров</a>
+                                    <ul class="subMenu">
+                                        <li class="subMenu__row">
+                                            <ul class="catalog__list catalog__list--mainNav">
+                                                <li class="catalog__item catalog__item--mainNav">
+                                                    <a class="catalog__link catalog__link--mainNav" href="#">Виртуальная реальность</a>
+                                                </li>
+                                                <li class="catalog__item catalog__item--mainNav">
+                                                    <a class="catalog__link catalog__link--mainNav" href="#">Моноподы для селфи</a>
+                                                </li>
+                                                <li class="catalog__item catalog__item--mainNav">
+                                                    <a class="catalog__link catalog__link--mainNav" href="#">Экшн-камеры</a>
+                                                </li>
+                                                <li class="catalog__item catalog__item--mainNav">
+                                                    <a class="catalog__link catalog__link--mainNav" href="#">Фитнесс-браслеты</a>
+                                                </li>
+                                                <li class="catalog__item catalog__item--mainNav">
+                                                    <a class="catalog__link catalog__link--mainNav" href="#">Умные часы</a>
+                                                </li>
+                                                <li class="catalog__item catalog__item--mainNav">
+                                                    <a class="catalog__link catalog__link--mainNav" href="#"></a>
+                                                </li>
+                                                <li class="catalog__item catalog__item--mainNav">
+                                                    <a class="catalog__link catalog__link--mainNav" href="#">Квадрокоптеры</a>
+                                                </li>
+                                            </ul>                         
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="mainNav__item mainNav__item--delivery">
+                                    <a class="mainNav__link" href="#">Доставка</a>
+                                </li>
+                                <li class="mainNav__item mainNav__item--garranty">
+                                    <a class="mainNav__link" href="#">Гарантия</a>
+                                </li>
+                                <li class="mainNav__item mainNav__item--contacts">
+                                    <a class="mainNav__link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="slidesContainer">
+                            <input class="slidesContainer__radio slidesContainer__radio--first" id="firstRadio" type="radio" name="slideToggle" checked>
+                            <input class="slidesContainer__radio slidesContainer__radio--second" id="secondRadio" type="radio" name="slideToggle"> 
+                            <input class="slidesContainer__radio slidesContainer__radio--third" id="thirdRadio" type="radio" name="slideToggle">
+                            <div class="slidesContainer__indicators">
+                                <label for="firstRadio"  class="slidesContainer__indicator slidesContainer__indicator--active"></label>  
+                                <label for="secondRadio" class="slidesContainer__indicator"></label>  
+                                <label for="thirdRadio" class="slidesContainer__indicator"></label>  
+                            </div>
+                            <div class="slide slide--first slide--active">
+                                <p class="slide__number">1</p>
+                                <p class="slide__slogan"><b>Делай селфи,<br> как Бен Стиллер!</b></p>
+                                <p class="slide__text">Самая длинная палка для селфи доступна в нашем магазине. 
+                                    Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+                                </p>
+                                <a class="slide__link btn--yelloyLine" href="#">ПОДРОБНЕЕ</a>
+                                <table class="slide__table">
+                                    <tr>
+                                        <td>8,5 м</td>
+                                        <td>5 кг</td>
+                                        <td>Карбон</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Длина палки</th>
+                                        <th>Вес палки</th>
+                                        <th>Материал</th>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="slide slide--second">
+                                <p class="slide__number">02</p>
+                                <p class="slide__slogan"><b>Худеем <br>правильно!</b></p>
+                                <p class="slide__text">Мотивирующие фитнесс-браслеты помогут найти в себе силы
+                                    не пропускать занятия и соблюдать диету.
+                                </p>
+                                <a class="slide__link btn--yelloyLine" href="#">ПОДРОБНЕЕ</a>
+                                <table class="slide__table">
+                                    <tr>
+                                        <td>48 часов</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Без подзарядки</th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="slide slide--third">
+                                <p class="slide__number">03</p>
+                                <p class="slide__slogan"><b>Порхает как бабочка, жалит как пчела!</b></p>
+                                <p class="slide__text">Этот обычный, на первый взгляд, квадрокоптер оснащен
+                                    мощным лазером, замаскированным под стандартную камеру.
+                                </p>
+                                <a class="slide__link btn--yelloyLine" href="#">ПОДРОБНЕЕ</a>
+                                <table class="slide__table">
+                                    <tr>
+                                        <td>800 м</td>
+                                        <td>50 м</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Дальность полета</th>
+                                        <th>Радиус поражения</th>
+                                        <th></th>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

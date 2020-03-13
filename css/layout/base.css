@@ -51,7 +51,7 @@
 	padding: 0 20px;
 }
 
-.btn_yelloyLine {
+.btn--yelloyLine {
 	position: relative;
 	min-height: 40px;
 	padding-top: 10px;
@@ -67,7 +67,7 @@
     text-decoration: none;
 }
 
-.btn_yelloyLine::after {
+.btn--yelloyLine::after {
 	content: '';
 	position: absolute;
 	display: block;
@@ -80,11 +80,11 @@
 	z-index: -1;
 }
 
-.btn_yelloyLine:hover {
+.btn--yelloyLine:hover {
 	background-color: rgb(240, 197, 46);
 }
 
-.btn_yelloyLine:active {
+.btn--yelloyLine:active {
 	color: rgba(0, 0, 0, 0.3);
 }
 

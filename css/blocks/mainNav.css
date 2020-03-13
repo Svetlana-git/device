@@ -1,6 +1,8 @@
 .mainNav {
+    position: absolute;
+    top: 0;
     margin-bottom: 4px;
-    
+    z-index: 2;
 }
 
 .mainNav__list {
@@ -21,7 +23,7 @@
 }
 
 .mainNav__item--catalog {
-    position: relative;
+    /*position: relative;*/
     margin-right: 294px;
 }
 

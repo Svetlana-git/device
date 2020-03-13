@@ -12,3 +12,8 @@
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
+
+.mainHeader__row--bottom {
+    display: block;
+    position: relative;
+}
