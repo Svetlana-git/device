@@ -14,7 +14,7 @@
     color: rgb(0, 0, 0);
 }
 
-.catalog__list--mainNav { /*контейнер не растягивается на всю ширину*/
+.catalog__list--mainNav {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -47,13 +47,14 @@
 /*----------------------mainContent--------------------*/
 .catalog__list--mainContent {
     display: flex;
+    flex-wrap: wrap;
     margin-left: -20px;
     margin-right: -20px;
-    outline: 1px solid red;
+    margin-bottom: 185px;
 }
 
 .catalog__item--mainContent {
-    width: 160px;
+    flex-basis: 160px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -61,7 +62,7 @@
 .catalog__link--mainContent {
     display: block;
     position: relative;
-    padding-top: 180px;
+    padding-top: 195px;
     color: rgb(0, 0, 0);
     font-size: 18px;
     line-height: 1.2em;
@@ -77,13 +78,59 @@
     width: 160px;
     height: 160px;
     background-color: rgb(247, 226, 150);
+    background-image: url('../../img/icons/spriteIcons.png');
+    background-position: 31px -448px;
+    background-repeat: no-repeat;
+}
+
+.catalog__link--mainContentMonopod::before {
+    background-position: -462px -457px;
+}
+
+.catalog__link--mainContentActionCameras::before {
+    background-position: -956px -462px;
+}
+
+.catalog__link--mainContentFitnessBracelets::before {
+    background-position: -1478px -450px;
+}
+
+.catalog__link--mainContentSmartwatches::before {
+    background-position: -1945px -468px;
+}
+
+.catalog__link--mainContentQuadcopters::before {
+    background-position: -2487px -451px;
 }
 
 .catalog__link--mainContent:hover::before {
     background-color: rgb(240, 197, 46);
 }
 
+.catalog__link--mainContent:active::before {
+   background-position: 31px -948px;
+}
+
+.catalog__link--mainContentMonopod:active::before {
+    background-position: -462px -957px;
+}
+
+.catalog__link--mainContentActionCameras:active::before {
+    background-position: -951px -962px;
+}
+
+.catalog__link--mainContentFitnessBracelets:active::before {
+    background-position: -1472px -950px;
+}
+
+.catalog__link--mainContentSmartwatches:active::before {
+    background-position: -1945px -968px;
+}
+
+.catalog__link--mainContentQuadcopters:active::before {
+    background-position: -2490px -951px;
+}
+
 .catalog__link--mainContent:active {
    color: rgba(0, 0, 0, 0.3);
-   
 }
