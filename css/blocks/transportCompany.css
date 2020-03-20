@@ -5,6 +5,7 @@
 }
 
 .transportCompany__item {
+    margin-bottom: 21px;
     position: relative;
     padding-left: 35px;
     font-family: 'Gilroy', 'Arial', sans-serif;
@@ -22,4 +23,10 @@
     border: 3px solid rgb(0, 0, 0);
     opacity: 0.3;
     border-radius: 50%;
+}
+
+/*------------------------------------------*/
+.transportCompany__list--aboutUs {
+    margin-top: 76px;
+    margin-bottom: 64px;
 }

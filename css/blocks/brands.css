@@ -1,6 +1,5 @@
 .brands {
-    margin-bottom: 30px;
-    outline: 1px solid red;
+    margin-bottom: 22px;
 }
 
 .brands__list {
@@ -10,7 +9,7 @@
     margin: -20px;
     padding: 0;
     padding-top: 55px;
-    padding-bottom: 55px;
+    padding-bottom: 20px;
     list-style: none;
 }
 
@@ -18,12 +17,42 @@
     width: 260px;
     height: 170px;
     margin: 20px;
-
-    outline: 1px solid green;
 }
 
 .brands__link {
     display: block;
     height: 100%;
     font-size: 0;
+    background-image: url("../../img/icons/spriteIcons.png");
+    background-position: 0 -1961px;
+    background-repeat: no-repeat;
 }
+
+.brands__link--sPGadgets {
+    background-position: -500px -1961px;
+}
+
+.brands__link--goPro {
+    background-position: -1000px -1961px;
+}
+
+.brands__link--vive {
+    background-position: -1503px -1961px;
+}
+
+.brands__link:hover {
+    background-position: 0 -2460px;
+}
+
+.brands__link--sPGadgets:hover {
+    background-position: -500px -2460px;
+}
+
+.brands__link--goPro:hover {
+    background-position: -1000px -2460px;
+}
+
+.brands__link--vive:hover {
+    background-position: -1503px -2460px;
+}
+

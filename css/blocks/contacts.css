@@ -3,7 +3,7 @@
 
 .contacts__title {
     margin: 0;
-    margin-bottom: 42px;
+    margin-bottom: 39px;
     padding: 0;
     font-size: 47px;
     line-height: 1.2em;
@@ -13,9 +13,9 @@
 }
     
 .contacts__text {
-    width: 460px;
+    max-width: 550px;
     margin: 0;
-    margin-bottom: 31px;
+    margin-bottom: 39px;
     padding: 0;
     font-size: 15px;
     line-height: 2em;
@@ -27,11 +27,20 @@
 .contacts__link {
     display: block;
     width: 260px;
+    font-size: 18px;
+    line-height: 1.2em;
+    font-family: 'Gilroy', 'Arial', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
 }
 
 .contacts__map {
     width: 560px;
     height: 222px;
-    margin-bottom: 70px;
+    margin-bottom: 68px;
     background-color: rgb(234, 234, 234);
+    background-image: url('../../img/bg/map.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }

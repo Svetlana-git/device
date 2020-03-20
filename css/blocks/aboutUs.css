@@ -4,7 +4,7 @@
 
 .aboutUs__title {
     margin: 0;
-    margin-bottom: 42px;
+    margin-bottom: 39px;
     padding: 0;
     font-size: 47px;
     line-height: 1.2em;
@@ -14,9 +14,9 @@
 }
 
 .aboutUs__text {
-    width: 460px;
+    max-width: 475px;
     margin: 0;
-    margin-bottom: 31px;
+    margin-bottom: 30px;
     padding: 0;
     font-size: 15px;
     line-height: 2em;
@@ -28,5 +28,10 @@
 .aboutUs__link {
     display: block;
     width: 260px;
-    
+    font-size: 18px;
+    line-height: 1.2em;
+    font-family: 'Gilroy', 'Arial', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
 }
