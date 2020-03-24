@@ -19,11 +19,11 @@
     color: rgb(0, 0, 0);
 }
 
-.logo__link[href]:hover .logo__title {
+.logo__link[href]:hover .logo__title--black {
     color: rgb(70, 70, 70);
 }
 
-.logo__link[href]:active .logo__title {
+.logo__link[href]:active .logo__title--black {
     color: rgb(102, 102, 102);
 }
 

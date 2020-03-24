@@ -54,3 +54,13 @@
     top: 12px;
     background-position: -500px -3500px;
 }
+
+.login__link--footer:hover::before {
+    top: 12px;
+    background-position: -500px -3000px;
+}
+
+.login__link--footer:active::before {
+    top: 12px;
+    opacity: 0.3;
+}

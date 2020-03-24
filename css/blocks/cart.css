@@ -19,11 +19,11 @@
 	box-sizing: border-box;
 }
 
-.cart__link:hover {
+.cart__link--header:hover {
     opacity: 0.6;
 }
 
-.cart__link:active {
+.cart__link--header:active {
     opacity: 0.3;
 }
 
@@ -60,4 +60,14 @@
 .cart__link--footer::before {
     top: 12px;
     background-position: -1500px -3500px;
+}
+
+.cart__link--footer:hover::before {
+    top: 12px;
+    background-position: -1500px -3000px;
+}
+
+.cart__link--footer:active::before {
+    top: 12px;
+    opacity: 0.3;
 }

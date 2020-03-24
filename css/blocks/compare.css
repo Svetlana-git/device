@@ -18,11 +18,11 @@
 	box-sizing: border-box;
 }
 
-.compare__link:hover {
+.compare__link--header:hover {
     opacity: 0.6;
 }
 
-.compare__link:active {
+.compare__link--header:active {
     opacity: 0.3;
 }
 
@@ -62,4 +62,14 @@
 .compare__link--footer::before {
     top: 14px;
     background-position: -1000px -3500px;
+}
+
+.compare__link--footer:hover::before {
+    top: 14px;
+    background-position: -1000px -3000px;
+}
+
+.compare__link--footer:active::before {
+    top: 14px;
+    opacity: 0.3;
 }
