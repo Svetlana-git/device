@@ -10,7 +10,6 @@
     padding-right: 4px;
     padding-top: 8.5px;
     padding-bottom: 8.5px;
-    /*text-align: right;*/
     text-decoration: none;
     font-size: 15px;
     line-height: 2.4em;
@@ -38,4 +37,29 @@
     background-image: url('../../img/icons/spriteIcons.png');
     background-position: -1000px 2px;
     background-repeat: no-repeat;
+}
+
+/*----------------------footer-----------------------------*/
+.compare--footer {
+    margin-right: 29px;
+}
+
+.compare__link--footer {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6em;
+}
+
+.compare__link--footer:hover {
+    color: rgb(255, 255, 255);
+}
+
+.compare__link--footer:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.compare__link--footer::before {
+    top: 14px;
+    background-position: -1000px -3500px;
 }

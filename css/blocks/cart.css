@@ -39,3 +39,25 @@
     background-position: -1500px 0;
     background-repeat: no-repeat;
 }
+
+/*------------------------------footer------------------------*/
+
+.cart__link--footer {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6em;
+}
+
+.cart__link--footer:hover {
+    color: rgb(255, 255, 255);
+}
+
+.cart__link--footer:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.cart__link--footer::before {
+    top: 12px;
+    background-position: -1500px -3500px;
+}

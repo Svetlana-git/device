@@ -57,6 +57,13 @@
 	padding: 0 20px;
 }
 
+.centring--footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
 .btn--yelloyLine {
 	position: relative;
 	/*min-height: 40px;*/

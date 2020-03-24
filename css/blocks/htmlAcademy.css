@@ -4,6 +4,22 @@
     height: 34px;
     text-decoration: none;
     font-size: 0;
+    text-align: right;
+    background-image: url('../../img/icons/spriteIcons.png');
+    background-position: 0 -3500px;
+    background-repeat: no-repeat;
+}
 
-    outline: 1px solid yellow;
+.htmlAcademy__link:hover {
+    background-position: 0 -3000px;
+}
+
+.htmlAcademy__link:active {
+    opacity: 0.3;
+}
+
+.htmlAcademy__link--footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

@@ -1,9 +1,10 @@
 .phone {
-    outline: 1px solid red;
+    margin: 0;
+    padding: 0;
     background-color: rgb(70, 70, 70);
+    text-align: right;
 }
 
 .phone__link {
-   
     text-decoration: none;
 }

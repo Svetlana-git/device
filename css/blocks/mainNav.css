@@ -1,8 +1,5 @@
 .mainNav {
-    position: absolute;
-    top: 0;
-    margin-bottom: 4px;
-    z-index: 2;
+    
 }
 
 .mainNav__list {
@@ -97,19 +94,24 @@
 .subMenu__row {
     height: 135px;
 }
+
+/*-------------------------header--------------------------------*/
+.mainNav--header {
+    position: absolute;
+    top: 0;
+    margin-bottom: 4px;
+    z-index: 2;
+}
+
 /*-------------------------footer--------------------------------*/
 .mainNav--footer {
-    margin-bottom: 5px;
+    margin-bottom: 61px;
+    padding-top: 72px;
 }
 
 .mainNav__list--footer {
-    justify-content: center;
-
+    justify-content: space-between;
     background-color: rgb(70, 70, 70);
-}
-
-.mainNav__item--footer {
-    margin-right: 35px;
 }
 
 .mainNav__link--footer {

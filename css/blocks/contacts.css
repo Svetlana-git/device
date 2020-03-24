@@ -33,6 +33,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3.5px;
+    z-index: 1;
 }
 
 .contacts__map {

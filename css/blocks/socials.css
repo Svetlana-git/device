@@ -1,37 +1,43 @@
 .socials {
-
-    outline: 1px solid red;
     background-color: rgb(70, 70, 70);
 }
 
 .socials__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 0 -16px;
+    margin: 0 -7px;
     padding: 0;
     list-style: none;
 }
 
 .socials__item {
-    width: 36px;
-    height: 36px;
-    margin: 0 16px;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 50%;
-    opacity: 0.3;
-}
-
-.socials__item:hover {
-    opacity: 0.6;
-}
-
-.socials__item:active {
-    opacity: 0.1;
+    width: 40px;
+    height: 40px;
+    margin: 0 7px;    
 }
 
 .socials__link {
     display: block;
     height: 100%;
-    
+    background-image: url('../../img/icons/spriteIcons.png');
+    background-position: 0 -4000px;
+    background-repeat: no-repeat;
     font-size: 0;
+}
+
+.socials__link:hover {
+    opacity: 0.3;
+}
+
+.socials__link:active {
+    opacity: 0.1;
+}
+
+.socials__link--inst {
+    background-position: -500px -4000px; 
+}
+
+.socials__link--tw {
+    background-position: -1000px -4000px; 
 }

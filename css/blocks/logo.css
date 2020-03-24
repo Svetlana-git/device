@@ -27,8 +27,16 @@
     color: rgb(102, 102, 102);
 }
 
-.logo__title_yellow {
+.logo__title--yellow {
     color: rgb(247, 225, 135);
+}
+
+.logo__title--yellow:hover {
+    color: rgb(240, 197, 46);
+}
+
+.logo__title--yellow:active {
+    color: rgba(240, 197, 46, 0.3);
 }
 
 /*--------------------header------------------------*/
@@ -37,4 +45,12 @@
     margin-top: -29px;
     margin-bottom: 3px;
     margin-left: -3px;
+}
+
+/*--------------------footer-------------------------*/
+
+.logo--footer {
+   margin-top: -11px;
+   margin-left: -3px;
+   margin-bottom: 18px;
 }
